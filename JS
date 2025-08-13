@@ -1,0 +1,12 @@
+function mensagem(){
+const mensagem = document.getElementById("mensagem");
+const nomeDigitado="Thiago"
+const name= document.getElementById("nome").value;
+const bot=document.getElementById("botao");
+if (name ==nomeDigitado){
+mensagem.innerHTML="Oi,pequeno gafanhoto Thiago!"
+}
+else{
+    mensagem.innerHTML="Desculpe, você nao é nosso primeiro aluno  gafanhoto."
+}
+} 
